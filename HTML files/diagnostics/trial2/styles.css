@@ -1,0 +1,177 @@
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #1D2C53;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.music-toolbar {
+    position: relative;
+    background-color: #1D2C53;
+    width: 100%;
+    height: auto;
+    padding: 20px;
+}
+
+.current-song {
+    position: absolute;
+    top: 100px;
+    left: 20px;
+    width: 234px;
+    text-align: center;
+}
+
+.current-song-img {
+    width: 234px;
+    height: 234px;
+    display: block;
+    margin: 0 auto 10px;
+}
+
+.current-song-title, .current-song-description {
+    width: 100%;
+    background: none;
+    border: none;
+    color: white;
+    
+}
+
+.current-song-title {
+    font-family: 'Inter Semi Bold';
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+.current-song-description {
+    font-family: 'Inter Medium';
+    font-size: 14px;
+}
+
+.progress-bar {
+    width: 234px;
+    height: 4px;
+    display: block;
+    margin-top: 10px;
+}
+
+.play-button-block {
+    position: absolute;
+    top: 100px;
+    left: 300px;
+    background-color: #4A5675;
+    width: 310px;
+    height: 86px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius:150px;
+}
+
+.play-button {
+    width: 26px;
+    height: 26px;
+    background-color: transparent;
+}
+
+.search-button {
+    position: absolute;
+    top: 110px;
+    left: 630px;
+    width: 62px;
+    height: 62px;
+    background-color: #4A5675;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-button img {
+    width: 26px;
+    height: 26px;
+}
+
+.heart-button {
+    position: absolute;
+    top: 125px;
+    left: 700px;
+    width: 50px;
+    height: 30px;
+    background-color:transparent;
+}
+
+.down-button {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.down-button img {
+    width: 28px;
+    height: 18px;
+}
+
+.songs-block {
+    position: absolute;
+    top: 230px;
+    left: 300px;
+    width: 705px;
+    height: 240px;
+}
+
+.music-options-block {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid white;
+    border-top-left-radius: 150px;
+    border-top-right-radius: 150px;
+    background-color: #4A5675;
+    /*margin-bottom: 10px;*/
+}
+
+.music-option {
+    font-family: 'Montserrat Medium';
+    font-size: 24px;
+    background: none;
+    border: none;
+    color: white;
+}
+
+.favourites-block {
+    width: 100%;
+    height: 170px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #4A5675;
+}
+
+.favourites-block p {
+    margin-top:40px;
+    /*margin: 0;*/
+    margin-bottom: 10px;
+    font-family: 'Montserrat';
+    font-size: 22px;
+}
+
+.favourite-buttons {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.favourite-button {
+    width: 85.18px;
+    height: 85.18px;
+    background: none;
+    border: none;
+}
+
+.favourite-button img {
+    width: 100%;
+    height: 100%;
+}
